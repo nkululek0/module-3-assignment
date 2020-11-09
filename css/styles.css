@@ -1,18 +1,26 @@
 .container{
 	border-radius: 0;
 	border: solid black 2px;
+	margin: 0;
+	padding: 0;
 }
 
 .brand{
 	font-size: 18pt;
 	font-weight: bold;
 	color: black;
+	margin-left: 20px;
+}
+
+#button-id{
+	margin-right: 5px;
 }
 
 #nav-items{
 	list-style: none;
 	text-align: center;
 	padding: 0;
+	margin: 0;
 	font-weight: bold;
 	background: grey;
 	width: 100%;
@@ -46,6 +54,9 @@ hr{
 @media (min-width: 768px){
 	.container{
 		width: 100%;
+	}
+	.content-container{
+		height: 1000px;
 	}
 }
 
